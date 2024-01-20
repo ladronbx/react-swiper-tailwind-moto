@@ -1,0 +1,13 @@
+.gradient-div::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 1280px;
+    height: 590px;
+    background: transparent linear-gradient(103deg, #000000 0%, #FFFFFF 100%) 0% 0% no-repeat padding-box;
+    mix-blend-mode: multiply;
+    opacity: 0.64;
+}

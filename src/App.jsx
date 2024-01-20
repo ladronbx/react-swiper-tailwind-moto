@@ -1,6 +1,7 @@
 import './App.css'
-import { ZontesProductPage } from './pages/ZontesProductPage/ZontesProductPage';
 import './tailwind.css';
+import './index.css';
+import { ZontesProductPage } from './pages/ZontesProductPage/ZontesProductPage'
 
 export default function App() {
   return (
