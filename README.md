@@ -1,8 +1,26 @@
-# React + Vite
+# Maquetación de Página de producto
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Descripción del Proyecto
+Maquetación de una página de producto para motos.
 
-Currently, two official plugins are available:
+## Instrucciones de Ejecución
+1. Clona este repositorio `https://github.com/ladronbx/react-tailwind.git`
+2. Navega al directorio `cd tecnica`.
+3. Ejecuta `npm install` para instalar las dependencias.
+4. Ejecuta `npm run start` para iniciar el servidor de desarrollo.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+## Tecnologías Utilizadas
+- React
+- Vite
+- Tailwind CSS
+
+## Contacto
+
+📧 Para cualquier pregunta o comentario, no dudes en ponerte en contacto:
+
+- **Bienve Ladrón**
+
+<a href = "[mailto:ladronbravovlc@gmail.com](mailto:ladronbravovlc@gmail.com)"><img src="https://img.shields.io/badge/Gmail-C6362C?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
+
+<a href="https://github.com/ladronbx" target="_blank"><img src="https://img.shields.io/badge/github-24292F?style=for-the-badge&logo=github&logoColor=green" target="_blank"></a>
