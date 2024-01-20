@@ -450,6 +450,9 @@ video {
 .left-\[81px\]{
   left: 81px;
 }
+.top-\[100px\]{
+  top: 100px;
+}
 .top-\[132px\]{
   top: 132px;
 }
@@ -464,6 +467,9 @@ video {
 }
 .top-\[488px\]{
   top: 488px;
+}
+.top-\[77px\]{
+  top: 77px;
 }
 .z-10{
   z-index: 10;
@@ -498,9 +504,6 @@ video {
 .hidden{
   display: none;
 }
-.h-\[1626px\]{
-  height: 1626px;
-}
 .h-\[185px\]{
   height: 185px;
 }
@@ -525,14 +528,14 @@ video {
 .h-full{
   height: 100%;
 }
+.h-screen{
+  height: 100vh;
+}
 .min-h-screen{
   min-height: 100vh;
 }
 .w-\[1100px\]{
   width: 1100px;
-}
-.w-\[1280px\]{
-  width: 1280px;
 }
 .w-\[130px\]{
   width: 130px;
@@ -542,6 +545,9 @@ video {
 }
 .w-\[150px\]{
   width: 150px;
+}
+.w-\[220px\]{
+  width: 220px;
 }
 .w-\[435px\]{
   width: 435px;
@@ -557,6 +563,9 @@ video {
 }
 .w-full{
   width: 100%;
+}
+.max-w-\[1280px\]{
+  max-width: 1280px;
 }
 .border-collapse{
   border-collapse: collapse;
@@ -606,6 +615,14 @@ video {
 .bg-padding-box{
   background-size: padding-box;
 }
+.object-contain{
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.object-cover{
+  -o-object-fit: cover;
+     object-fit: cover;
+}
 .text-left{
   text-align: left;
 }
@@ -614,6 +631,27 @@ video {
 }
 .font-rubik{
   font-family: Rubik, sans-serif;
+}
+.text-25{
+  font-size: 25px;
+}
+.text-2xl{
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+.text-3xl{
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+.text-4xl{
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+.text-55{
+  font-size: 55px;
+}
+.text-75{
+  font-size: 75px;
 }
 .text-\[14px\]{
   font-size: 14px;
@@ -688,8 +726,59 @@ p {
   margin: 0em;
 }
 
+@media (min-width: 0px){
+  .xs\:text-\[12px\]{
+    font-size: 12px;
+  }
+  .xs\:text-\[30px\]{
+    font-size: 30px;
+  }
+  .xs\:text-\[35px\]{
+    font-size: 35px;
+  }
+}
+
+@media (min-width: 640px){
+  .sm\:w-\[200px\]{
+    width: 200px;
+  }
+  .sm\:w-\[220px\]{
+    width: 220px;
+  }
+  .sm\:text-\[12px\]{
+    font-size: 12px;
+  }
+  .sm\:text-\[55px\]{
+    font-size: 55px;
+  }
+}
+
+@media (min-width: 768px){
+  .md\:w-\[400px\]{
+    width: 400px;
+  }
+  .md\:text-\[12px\]{
+    font-size: 12px;
+  }
+  .md\:text-\[14px\]{
+    font-size: 14px;
+  }
+  .md\:text-\[65px\]{
+    font-size: 65px;
+  }
+}
+
 @media (min-width: 1024px){
-  .lg\:w-\[1280px\]{
-    width: 1280px;
+  .lg\:w-\[400px\]{
+    width: 400px;
+  }
+  .lg\:w-\[463px\]{
+    width: 463px;
+  }
+}
+
+@media (min-width: 1280px){
+  .xl\:w-\[461px\]{
+    width: 461px;
   }
 }

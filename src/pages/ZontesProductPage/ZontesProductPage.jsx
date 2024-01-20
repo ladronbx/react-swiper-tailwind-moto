@@ -5,7 +5,7 @@ import { HeroBlock } from "../../common/HeroBlock/HeroBlock";
 export const ZontesProductPage = () => {
   return (
     <>
-        <article className="relative w-[1280px] h-[1626px]">
+      <article className="flex justify-center items-center min-h-screen w-full">
           < HeroBlock />
         </article>
     </>

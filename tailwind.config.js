@@ -19,6 +19,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      screens: {
+        'xs': '0px',
+      },
       colors: {
         'custom-blue': '#9bc4de',
         'custom-yellow': '#E2E200',
@@ -38,6 +41,10 @@ module.exports = {
         '16': '16px',
         '40': '40px',
         '30': '30px',
+        '75': '75px',
+        '55': '55px',
+        '25': '25px',
+        '177': '177px',
       },
       letterSpacing: {
         'tighter': '-0.05em',

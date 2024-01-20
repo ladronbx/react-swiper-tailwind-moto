@@ -40,16 +40,15 @@ export const ResponsiveHeroBlockxl = () => {
                 }}
                 modules={[Autoplay, Navigation]}
                 onAutoplayTimeLeft={onAutoplayTimeLeft}
-                className="relative hero-block-swiper h-[590px] w-full lg:w-[1280px]"
+                className="relative hero-block-swiper h-[590px] w-full max-w-[1280px]"
             >
-
                 <SwiperSlide>
                     <div>
-                        <div className='gradient-div h-full w-full'>
-                            <img className='gradient-div h-full w-full' src='./Mask Group 410.png' alt='Slide 1' />
+                        <div className='gradient-div h-full w-full max-w-[1280px]'>
+                            <img className='gradient-div max-w-[1280px]' src='./Mask Group 410.png' alt='Slide 1' />
                         </div>
-                        <div className='absolute top-[177px] left-[79px] w-[463px] h-[185px] mt-[0px]'>
-                            <span className='w-[134px] h-[19px] text-left font-exo font-bold text-[16px] leading-[20px] tracking-normal text-white uppercase opacity-100 italic cur'> NOVEDADES 2024</span>
+                        <div className='absolute top-[177px] left-[79px] w-full lg:w-[463px] h-[185px] mt-[0px]'>
+                        <span className='w-[134px] h-[19px] text-left font-exo font-bold text-[16px] leading-[20px] tracking-normal text-white uppercase opacity-100 italic cur'> NOVEDADES 2024</span>
                             <div className='absolute w-[435px] h-[90px] top-[26px] mt-[7px]'>
                                 <span className='text-left font-exo font-bold text-[75px] leading-[66px] tracking-normal text-white uppercase opacity-100 italic'> NUEVA E350</span>
                             </div>

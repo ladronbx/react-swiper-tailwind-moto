@@ -7,9 +7,9 @@ import { ResponsiveHeroBlocklg } from '../ResponsiveHeroBlocklg/ResponsiveHeroBl
 import { ResponsiveHeroBlockmd } from '../ResponsiveHeroBlockmd/ResponsiveHeroBlockmd';
 
 export const HeroBlock = () => {
-  const isResponsiveHeroBlockxl = useMediaQuery({ minDeviceWidth: 1024 })
+  const isResponsiveHeroBlockxl = useMediaQuery({ minDeviceWidth: 1200 })
   const isResponsiveHeroBlocklg = useMediaQuery({ minDeviceWidth: 768 })
-  const isResponsiveHeroBlockmd = useMediaQuery({ minDeviceWidth: 640 })
+  const isResponsiveHeroBlockmd = useMediaQuery({ minDeviceWidth: 0 })
 
   const renderComponent = () => {
     if (isResponsiveHeroBlockxl) {
