@@ -1,13 +1,13 @@
 import './App.css'
-import { Header } from './common/Header/Header'
-import { Body } from './pages/Body/Body'
-
+import { ZontesProductPage } from './pages/ZontesProductPage/ZontesProductPage';
+import './tailwind.css';
 
 export default function App() {
   return (
     <>
-      <Header />
-      <Body />
+      <div className="flex justify-center items-center min-h-screen">
+      <ZontesProductPage />
+    </div >
     </>
   )
 }
