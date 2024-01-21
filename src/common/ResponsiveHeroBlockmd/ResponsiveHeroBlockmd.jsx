@@ -83,7 +83,7 @@ export const ResponsiveHeroBlockmd = () => {
                         <div className='absolute top-[77px] left-[79px] w-[900px] h-[185px] mt-[0px]'>
                             <span className='w-[134px] h-[19px] text-left font-exo font-bold text-[16px]  md:text-[14px] sm:text-[12px] xs:text-[12px] leading-[20px] tracking-normal text-white uppercase opacity-100 italic'> CITA EN TALLER</span>
                             <div className='absolute h-[90px] top-[26px] mt-[7px]'>
-                                <span className='text-left font-exo font-bold text-[75px] md:text-[65px] sm:text-[55px] xs:text-[35px] leading-[66px] tracking-normal text-white uppercase opacity-100 italic'> CITA EN TALLER</span>
+                                <span className='text-left font-exo font-bold text-[75px] md:text-[65px] sm:text-[55px] xs:text-[35px] leading-[66px] tracking-normal text-white uppercase opacity-100 italic  mr-[30px]'> CITA EN TALLER</span>
                             </div>
                             <div className='absolute top-[100px] left-[0px] xl:w-[461px] lg:w-[400px] md:w-[400px] sm:w-[220px] w-[220px] h-full'>
                                 <span className='xl:w-[461px] lg:w-[400px] md:w-[400px] sm:w-[220px] w-[220px] h-full text-left font-rubik font-light text-[14px] md:text-[14px] sm:text-[12px] xs:text-[12px] leading-[18px] tracking-normal text-white opacity-100'> Et repellendus rerum est rerum voluptas et doloremque voluptates. At quia voluptatem ut tempora beatae aut ipsum quae qui rerum debitis eos necessitatibus voluptas ab aspernatur tempora ut dignissimos quod</span>
@@ -115,7 +115,7 @@ export const ResponsiveHeroBlockmd = () => {
                         <div className='absolute top-[77px] left-[79px] w-[1100px] h-[185px] mt-[0px]'>
                             <span className='h-[19px] text-left font-exo font-bold text-[16px]  md:text-[14px] sm:text-[12px] xs:text-[12px]  leading-[20px] tracking-normal text-white uppercase opacity-100 italic'> NOVEDADES 2024</span>
                             <div className='absolute h-[90px] top-[26px] mt-[7px]'>
-                                <span className='text-left font-exo font-bold text-[75px] md:text-[65px] sm:text-[55px] xs:text-[35px]  leading-[66px] tracking-normal text-white uppercase opacity-100 italic'> NUEVA ZONTES</span>
+                                <span className='text-left font-exo font-bold text-[75px] md:text-[65px] sm:text-[55px] xs:text-[35px]  leading-[66px] tracking-normal text-white uppercase opacity-100 italic  mr-[30px]'> NUEVA ZONTES</span>
                             </div>
 
                             <div className='absolute top-[100px] left-[0px] xl:w-[461px] lg:w-[400px] md:w-[400px] sm:w-[220px] w-[220px] h-full'>

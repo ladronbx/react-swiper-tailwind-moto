@@ -8,7 +8,6 @@ export default function App() {
       <div className="flex justify-center items-center min-h-screen w-full">
         <ZontesProductPage />
       </div>
-
     </>
   )
 }
