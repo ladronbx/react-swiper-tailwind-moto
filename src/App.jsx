@@ -1,4 +1,3 @@
-import './App.css'
 import './tailwind.css';
 import './index.css';
 import { ZontesProductPage } from './pages/ZontesProductPage/ZontesProductPage'

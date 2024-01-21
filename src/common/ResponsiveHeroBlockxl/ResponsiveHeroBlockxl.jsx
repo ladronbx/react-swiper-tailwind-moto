@@ -28,9 +28,9 @@ export const ResponsiveHeroBlockxl = () => {
             if (s.previousIndex === 1 && progressBar2.current) progressBar2.current.style.width = '0%';
         }
     };
+    
     return (
         <>
-
             <Swiper
                 spaceBetween={30}
                 centeredSlides={true}

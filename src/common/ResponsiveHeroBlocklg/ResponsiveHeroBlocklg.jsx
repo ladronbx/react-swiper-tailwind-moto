@@ -30,7 +30,6 @@ export const ResponsiveHeroBlocklg = () => {
     };
     return (
         <>
-
             <Swiper
                 spaceBetween={30}
                 centeredSlides={true}
@@ -45,7 +44,7 @@ export const ResponsiveHeroBlocklg = () => {
                 <SwiperSlide>
                     <div>
                         <div className='gradient-div h-screen w-full'>
-                            <img className='h-full w-full object-cover' src='./Mask Group 410.png' alt='Slide 2' />
+                            <img className='h-full w-full object-cover' src='./Mask Group 410.png' alt='Slide 1' />
                         </div>
                         <div className='absolute top-[177px] left-[79px] w-[463px] h-[185px] mt-[0px]'>
                             <span className='w-[134px] h-[19px] text-left font-exo font-bold text-[16px] md:text-[14px] sm:text-[12px] xs:text-[12px] leading-[20px] tracking-normal text-white uppercase opacity-100 italic cur'> NOVEDADES 2024</span>
@@ -59,7 +58,6 @@ export const ResponsiveHeroBlocklg = () => {
                         <div className='absolute top-[400px] left-[80px] w-[130px] h-[35px] bg-[#E2E200] flex items-center justify-center z-10 cursor-pointer'>
                             <span className='text-left font-exo font-bold text-[16px]  md:text-[14px] sm:text-[12px] xs:text-[12px] leading-[24px] tracking-normal text-black uppercase opacity-100 italic'>DESCÚBRELA</span>
                         </div>
-
                         <div className="absolute top-[488px] left-[81px] flex flex-row justify-between items-center">
                             <div className='flex flex-col items-start z-20 mr-[60px]'>
                                 <span className='text-left font-exo font-bold text-[16px]  md:text-[14px] sm:text-[12px] xs:text-[12px] leading-[20px] tracking-normal text-white uppercase opacity-100 italic mb-[6px]'>NUEVA E350</span>
@@ -73,6 +71,7 @@ export const ResponsiveHeroBlocklg = () => {
                         </div>
                     </div>
                 </SwiperSlide>
+
                 <SwiperSlide>
                     <div>
                         <div className='gradient-div h-screen w-full'>
@@ -90,7 +89,6 @@ export const ResponsiveHeroBlocklg = () => {
                         <div className='absolute top-[400px] left-[80px] w-[130px] h-[35px] bg-[#E2E200] flex items-center justify-center z-10 cursor-pointer'>
                             <span className='text-left font-exo font-bold text-[16px]  md:text-[14px] sm:text-[12px] xs:text-[12px] leading-[24px] tracking-normal text-black uppercase opacity-100 italic '>Pide tu cita</span>
                         </div>
-
                         <div className="absolute top-[488px] left-[81px] flex flex-row justify-between items-center">
                             <div className='flex flex-col items-start z-10 mr-[60px]'>
                                 <span className='text-left font-exo font-bold text-[16px]  md:text-[14px] sm:text-[12px] xs:text-[12px] leading-[20px] tracking-normal text-white uppercase opacity-100 italic mb-[6px]'>cita en taller</span>
@@ -104,10 +102,11 @@ export const ResponsiveHeroBlocklg = () => {
                         </div>
                     </div>
                 </SwiperSlide>
+
                 <SwiperSlide>
                     <div>
-                    <div className='gradient-div h-screen w-full'>
-                            <img className='h-full w-full object-cover' src='./moto-azul.png' alt='Slide 2' />
+                        <div className='gradient-div h-screen w-full'>
+                            <img className='h-full w-full object-cover' src='./moto-azul.png' alt='Slide 3' />
                         </div>
                         <div className='absolute top-[177px] left-[79px] w-[1100px] h-[185px] mt-[0px]'>
                             <span className='h-[19px] text-left font-exo font-bold text-[16px]  md:text-[14px] sm:text-[12px] xs:text-[12px]  leading-[20px] tracking-normal text-white uppercase opacity-100 italic'> NOVEDADES 2024</span>
@@ -121,7 +120,6 @@ export const ResponsiveHeroBlocklg = () => {
                         <div className='absolute top-[400px] left-[80px] w-[130px] h-[35px] bg-[#E2E200] flex items-center justify-center z-10 cursor-pointer'>
                             <span className='text-left font-exo font-bold text-[16px]  md:text-[14px] sm:text-[12px] xs:text-[12px]  leading-[24px] tracking-normal text-black uppercase opacity-100 italic'>DESCÚBRELA</span>
                         </div>
-
                         <div className="absolute top-[488px] left-[81px] flex flex-row justify-between items-center">
                             <div className='flex flex-col items-start z-10'>
                                 <span className='text-left font-exo font-bold text-[16px]  md:text-[14px] sm:text-[12px] xs:text-[12px] leading-[20px] tracking-normal text-white uppercase opacity-100 italic mb-[6px]'>scooter zontes</span>
@@ -133,7 +131,6 @@ export const ResponsiveHeroBlocklg = () => {
                                 </div>
                             </div>
                         </div>
-
                     </div>
                 </SwiperSlide>
             </Swiper>

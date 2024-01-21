@@ -1,6 +1,7 @@
 import React from 'react';
 
 export const Rectangle2574 = () => {
+    
     return (
         <div className="w-[265px] h-[373px] border border-[#DFDDDA] opacity-100">
             <div className="w-[264px] h-[27px] flex justify-end items-start ">

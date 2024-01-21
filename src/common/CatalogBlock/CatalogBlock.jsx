@@ -6,7 +6,6 @@ import { Rectangle2574 } from "../Rectangle2574/Rectangle2574";
 
 import { Scrollbar } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
-// import 'swiper/css';
 import './CatalogBlock.css';
 
 export const CatalogBlock = () => {
@@ -69,13 +68,11 @@ export const CatalogBlock = () => {
           <SwiperSlide><Rectangle2573 /></SwiperSlide>
           <SwiperSlide><Rectangle2574 /></SwiperSlide>
           <SwiperSlide><Rectangle2515 /></SwiperSlide>
-
         </Swiper>
 
         <div className="swiper-scrollbar"></div>
 
       </div>
-
     </>
   );
 };

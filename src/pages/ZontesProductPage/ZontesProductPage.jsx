@@ -1,5 +1,4 @@
 import React from "react";
-import "./ZontesProductPage.css";
 import { HeroBlock } from "../../common/HeroBlock/HeroBlock";
 import { CatalogBlock } from "../../common/CatalogBlock/CatalogBlock";
 

@@ -28,6 +28,7 @@ export const ResponsiveHeroBlockmd = () => {
             if (s.previousIndex === 1 && progressBar2.current) progressBar2.current.style.width = '0%';
         }
     };
+
     return (
         <>
 
@@ -40,12 +41,12 @@ export const ResponsiveHeroBlockmd = () => {
                 }}
                 modules={[Autoplay, Navigation]}
                 onAutoplayTimeLeft={onAutoplayTimeLeft}
-                className="relative hero-block-swiper h-[590px] w-full"
+                className="relative hero-block-swiper h-[620px] w-full"
             >
                 <SwiperSlide>
                     <div>
                         <div className='gradient-div h-screen w-full'>
-                            <img className='h-full w-full object-cover' src='./Mask Group 410.png' alt='Slide 2' />
+                            <img className='h-full w-full object-cover' src='./Mask Group 410.png' alt='Slide 1' />
                         </div>
                         <div className='absolute top-[77px] left-[79px] w-[463px] h-[185px] mt-[0px]'>
                             <span className='w-[134px] h-[19px] text-left font-exo font-bold text-[16px] md:text-[14px] sm:text-[12px] xs:text-[12px] leading-[20px] tracking-normal text-white uppercase opacity-100 italic cur'> NOVEDADES 2024</span>
@@ -73,10 +74,11 @@ export const ResponsiveHeroBlockmd = () => {
                         </div>
                     </div>
                 </SwiperSlide>
+
                 <SwiperSlide>
                     <div>
                         <div className='gradient-div h-screen w-full'>
-                            <img className='h-full w-full object-cover' src='./moto-negra.png' alt='Slide 2' />
+                            <img className='h-full w-full object-cover' src='./moto-roja.png' alt='Slide 2' />
                         </div>
                         <div className='absolute top-[77px] left-[79px] w-[900px] h-[185px] mt-[0px]'>
                             <span className='w-[134px] h-[19px] text-left font-exo font-bold text-[16px]  md:text-[14px] sm:text-[12px] xs:text-[12px] leading-[20px] tracking-normal text-white uppercase opacity-100 italic'> CITA EN TALLER</span>
@@ -104,10 +106,11 @@ export const ResponsiveHeroBlockmd = () => {
                         </div>
                     </div>
                 </SwiperSlide>
+
                 <SwiperSlide>
                     <div>
-                    <div className='gradient-div h-screen w-full'>
-                            <img className='h-full w-full object-cover' src='./moto-azul.png' alt='Slide 2' />
+                        <div className='gradient-div h-screen w-full'>
+                            <img className='h-full w-full object-cover' src='./moto-blanca.png' alt='Slide 3' />
                         </div>
                         <div className='absolute top-[77px] left-[79px] w-[1100px] h-[185px] mt-[0px]'>
                             <span className='h-[19px] text-left font-exo font-bold text-[16px]  md:text-[14px] sm:text-[12px] xs:text-[12px]  leading-[20px] tracking-normal text-white uppercase opacity-100 italic'> NOVEDADES 2024</span>
@@ -134,7 +137,6 @@ export const ResponsiveHeroBlockmd = () => {
                                 </div>
                             </div>
                         </div>
-
                     </div>
                 </SwiperSlide>
             </Swiper>

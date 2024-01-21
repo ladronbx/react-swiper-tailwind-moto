@@ -1,4 +1,4 @@
-.gradient-div::before{
+.gradient-div::before {
     content: "";
     position: absolute;
     width: 100%;
@@ -6,4 +6,10 @@
     background: transparent linear-gradient(103deg, #000000 0%, #FFFFFF 100%) 0% 0% no-repeat padding-box;
     mix-blend-mode: multiply;
     opacity: 0.64;
+}
+
+@media (max-width: 673px) {
+    .hero-block-swiper {
+        height: 100vh;
+    }
 }
