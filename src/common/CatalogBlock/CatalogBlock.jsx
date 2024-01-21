@@ -19,7 +19,7 @@ export const CatalogBlock = () => {
         </div>
       </div>
 
-      <div className="relative h-[590px] w-full max-w-[1280px] cursor-pointer overflow-hidden pl-[80px] pr-[80px] container-main-catalog">
+      <div className="relative h-full w-full max-w-[1280px] cursor-pointer overflow-hidden pl-[80px] pr-[80px] container-main-catalog">
         <Swiper
           scrollbar={{ draggable: true, snapOnRelease: false, el: '.swiper-scrollbar' }}
           modules={[Scrollbar]}

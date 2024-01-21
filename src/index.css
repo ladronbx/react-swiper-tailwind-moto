@@ -444,9 +444,6 @@ video {
 .left-\[0px\]{
   left: 0px;
 }
-.left-\[135px\]{
-  left: 135px;
-}
 .left-\[79px\]{
   left: 79px;
 }
@@ -459,14 +456,8 @@ video {
 .top-\[100px\]{
   top: 100px;
 }
-.top-\[1193px\]{
-  top: 1193px;
-}
 .top-\[132px\]{
   top: 132px;
-}
-.top-\[1433px\]{
-  top: 1433px;
 }
 .top-\[177px\]{
   top: 177px;
@@ -498,20 +489,23 @@ video {
 .mb-0{
   margin-bottom: 0px;
 }
-.mb-\[10px\]{
-  margin-bottom: 10px;
-}
 .mb-\[30px\]{
   margin-bottom: 30px;
 }
 .mb-\[6px\]{
   margin-bottom: 6px;
 }
+.ml-\[80px\]{
+  margin-left: 80px;
+}
 .mr-\[1\.5px\]{
   margin-right: 1.5px;
 }
 .mr-\[60px\]{
   margin-right: 60px;
+}
+.mr-\[80px\]{
+  margin-right: 80px;
 }
 .mt-0{
   margin-top: 0px;
@@ -554,6 +548,9 @@ video {
 }
 .mt-\[41\.2px\]{
   margin-top: 41.2px;
+}
+.mt-\[42px\]{
+  margin-top: 42px;
 }
 .mt-\[60px\]{
   margin-top: 60px;
@@ -600,9 +597,6 @@ video {
 .h-\[185px\]{
   height: 185px;
 }
-.h-\[198px\]{
-  height: 198px;
-}
 .h-\[19px\]{
   height: 19px;
 }
@@ -645,9 +639,6 @@ video {
 .h-\[90px\]{
   height: 90px;
 }
-.h-\[91px\]{
-  height: 91px;
-}
 .h-full{
   height: 100%;
 }
@@ -660,14 +651,8 @@ video {
 .w-\[100px\]{
   width: 100px;
 }
-.w-\[1010px\]{
-  width: 1010px;
-}
 .w-\[1100px\]{
   width: 1100px;
-}
-.w-\[1120px\]{
-  width: 1120px;
 }
 .w-\[130px\]{
   width: 130px;
@@ -768,6 +753,9 @@ video {
 .flex-col{
   flex-direction: column;
 }
+.flex-wrap{
+  flex-wrap: wrap;
+}
 .items-start{
   align-items: flex-start;
 }
@@ -782,11 +770,6 @@ video {
 }
 .justify-between{
   justify-content: space-between;
-}
-.space-x-\[18px\] > :not([hidden]) ~ :not([hidden]){
-  --tw-space-x-reverse: 0;
-  margin-right: calc(18px * var(--tw-space-x-reverse));
-  margin-left: calc(18px * calc(1 - var(--tw-space-x-reverse)));
 }
 .space-x-\[7px\] > :not([hidden]) ~ :not([hidden]){
   --tw-space-x-reverse: 0;
@@ -1115,11 +1098,20 @@ p {
   .sm\:w-\[220px\]{
     width: 220px;
   }
+  .sm\:pl-\[10px\]{
+    padding-left: 10px;
+  }
+  .sm\:pr-\[10px\]{
+    padding-right: 10px;
+  }
   .sm\:text-\[12px\]{
     font-size: 12px;
   }
   .sm\:text-\[14px\]{
     font-size: 14px;
+  }
+  .sm\:text-\[30px\]{
+    font-size: 30px;
   }
   .sm\:text-\[32px\]{
     font-size: 32px;
@@ -1145,6 +1137,12 @@ p {
   .md\:flex-row{
     flex-direction: row;
   }
+  .md\:pl-\[100px\]{
+    padding-left: 100px;
+  }
+  .md\:pr-\[100px\]{
+    padding-right: 100px;
+  }
   .md\:text-\[12px\]{
     font-size: 12px;
   }
@@ -1153,6 +1151,9 @@ p {
   }
   .md\:text-\[16px\]{
     font-size: 16px;
+  }
+  .md\:text-\[30px\]{
+    font-size: 30px;
   }
   .md\:text-\[35px\]{
     font-size: 35px;
@@ -1174,5 +1175,11 @@ p {
 @media (min-width: 1280px){
   .xl\:w-\[461px\]{
     width: 461px;
+  }
+  .xl\:pl-\[135px\]{
+    padding-left: 135px;
+  }
+  .xl\:pr-\[135px\]{
+    padding-right: 135px;
   }
 }
