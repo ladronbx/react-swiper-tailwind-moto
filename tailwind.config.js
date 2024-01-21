@@ -37,6 +37,20 @@ module.exports = {
         'light': 300,
         '300': 300,
       },
+      backgroundImage: theme => ({
+        '0H3V08371': "url('../src/assets/build/img/0H3V08371.png')",
+        'KD150GK009N': "url('../src/assets/build/img/KD150GK009N[1].png')",
+        'MaskGroup395': "url('../src/assets/build/img/Mask Group 395.png')",
+        'MaskGroup3951': "url('../src/assets/build/img/Mask Group 395-1.png')",
+        'MaskGroup3952': "url('../src/assets/build/img/Mask Group 395-2.png')",
+        'MaskGroup3953': "url('../src/assets/build/img/Mask Group 395-3.png')",
+        'MaskGroup410': "url('../src/assets/build/img/Mask Group 410.png')",
+        'ZONTESZ2125AZ5': "url('../src/assets/build/img/ZONTES-Z2-125-AZ-5.png')",
+        'zonteszt125negra12': "url('../src/assets/build/img/zontes-zt-125-negra-12.png')",
+        '亮银': "url('../src/assets/build/img/亮银 (7).png')",
+        'taller': "url('../src/assets/build/img/taller.png')",
+        'ruta': "url('../src/assets/build/img/motos-ruta.png')",
+      }),
       fontSize: {
         '16': '16px',
         '40': '40px',
@@ -69,6 +83,9 @@ module.exports = {
       },
       mixBlendMode: {
         'multiply': 'multiply',
+      },
+      width: {
+        '70': '70%',
       },
       fontStyle: ['responsive', 'hover', 'focus', 'active', 'group-hover', 'italic'],
     },
