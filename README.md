@@ -9,6 +9,9 @@ Maquetación de una página de producto para motos.
 3. Ejecuta `npm install` para instalar las dependencias.
 4. Ejecuta `npm run start` para iniciar el servidor de desarrollo.
 
+## Deploy en AWS
+`https://main.d1ikbd5l43mdk0.amplifyapp.com/`
+
 
 ## Tecnologías Utilizadas
 - React
