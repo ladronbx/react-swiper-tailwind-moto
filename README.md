@@ -18,6 +18,22 @@ Maquetación de una página de producto para motos.
 - Vite
 - Tailwind CSS
 
+<p>
+   <div align="center">
+      <img src="./src/assets/build/img-readme/img-readme-1.gif" style="max-width: 100%;" width="100%">
+   </div>    
+</p>
+<p>
+   <div align="center">
+      <img src="./src/assets/build/img-readme/img-readme-2.gif" style="max-width: 100%;" width="100%">
+   </div>    
+</p>
+<p>
+   <div align="center">
+      <img src="./src/assets/build/img-readme/img-readme-3.gif" style="max-width: 100%;" width="100%">
+   </div>    
+</p>
+
 ## Contacto
 
 📧 Para cualquier pregunta o comentario, no dudes en ponerte en contacto:
